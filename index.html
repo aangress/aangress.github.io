@@ -23,7 +23,7 @@
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="/images/avatar-2022.jpg" style="width:100%">
+  <img src="/images/Headshot.jpg" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -47,7 +47,7 @@
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">RESEARCH</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
 </div>
@@ -58,12 +58,14 @@
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">Aaron Angress</span></h1>
     <h4>Undergraduate Physics Student at Northeastern University</h4>
-    <img src="/images/galaxy-fig-insets-smaller.png" alt="galaxy" class="w3-image" width="992" height="1108">
+    <img src="/images/ngc628.jpg" alt="galaxy" class="w3-image" width="992" height="1108">
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-16" id="about">
-    <p><font size="+1">I am currently completing my final year of undergrad at Northeastern University. I'm majoring in physics with minors in mathematics and mechanical engineering.
+    <p><font size="+1">I am currently completing my final year of undergrad at Northeastern University,
+      majoring in physics with minors in mathematics and mechanical engineering. I am seeking admission to
+      Fall 2024 graduate programs.
     </font></p>
     <p><p><font size="+1">
       My research interests lie in the formation, identification, and evolution of structure in our universe on both
@@ -73,7 +75,7 @@
 
     </font></p>
 
-    <a href="/files/CV__US_.pdf" target="_blank"><button class="w3-button w3-light-grey w3-padding-large w3-section">
+    <a href="/files/Aaron Angress CV 11.30.23.pdf" target="_blank"><button class="w3-button w3-light-grey w3-padding-large w3-section">
       <i class="fa fa-download"></i> Download CV
     </button></a>
   </div>
@@ -85,10 +87,13 @@
 
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
-      <h3>Unmasking Stellar-Feedback Driven Bubbles: Identification and Properties Analysis</h3>
-      <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230110251J/abstract" target="_blank">
-      <img src="/images/fig-2023a.png" style="width:80%">
-      </a>
+      <h3>Harvard-Smithsonian Center for Astrophysics</h3>
+      <h5>Unmasking Stellar-Feedback Driven Bubbles: Identification and Properties Analysis</h5>
+
+      <!-- Maybe gonna put in some plots from the paper here? More bubble maps? -->
+      <img src="/images/lifetimes.png" style="width:80%">
+      <img src="/images/lifetime vs galactocentric radius.png" style="width:80%">
+
       <div class="w3-content w3-justify w3-text-grey" id="about">
       <p>The identification and tracking of stellar feedback-driven galaxy bubbles is an important topic in star
         formation and galactic structure research. However, current observational analysis of bubbles is limited in
@@ -101,9 +106,49 @@
         and the local environment of each bubble. Finally, we threshold the analysis to predict how the data would
         appear experimentally and compare to true observations.
       </p>
+
+      <p>This paper is near submission and will be published in the Astrophysical Journal.
+      </p>
       </div>
       <br>
 
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <h3>E Ink Co-op</h3>
+
+      <!-- Generic E Ink Picture, maybe a capsule -->
+
+      <img src="/images/E Ink.png" style="width:80%">
+      <img src="/images/E-Ink-Color.jpg" style="width:80%">
+      <div class="w3-content w3-justify w3-text-grey" id="about">
+      <p>For my first co-op (6 month internship) during my time at Northeastern University, I worked in applied research
+        at E Ink Corporation. My research focused on probing the fundamental electrophoretic behaviour of the ink in
+        ePaper devices. ePaper devices work by applying electric fields to charged pigment particles in order to layer
+        them on top of each other, reflecting the perfect amount of each wavelength of light to produce a full range of
+        colors. I produced large sets of optical data which I then built analysis pipelines for, and I developed a variety
+        of test sequences. In particular, I investigated temperature dependence of pigment mobility.
+      </p>
+
+      </div>
+      <br>
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <h3>Sridhar Lab</h3>
+
+      <!-- Picture of 3D models -->
+
+      <img src="/images/Sridhar-Model.png" style="width:80%">
+      <div class="w3-content w3-justify w3-text-grey" id="about">
+      <p>During my second year at Northeastern, I conducted medical physics research at Northeastern's Sridhar Lab.
+        The Sridhar Lab currently works on utilizing ferumoxtyl, a novel contrast agent, in MRI angiographs.
+        Through a variety of grouping methods — growing from seeds, thresholding, simple manual editing, and
+        more – I identified patients' kidneys, aortas, inferior vena cavas, and renal blood vessels in MRI signal data,
+        including cysts in the patients’ kidneys that could be diagnosed. These 3D models were created for use as a
+        machine learning training set.
+      </p>
+
+      </div>
+      <br>
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
@@ -115,14 +160,11 @@
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-content w3-justify w3-text-grey" id="contact">
-      <p>Sarah Jeffreson<br>
-      Harvard-Smithsonian Center for Astrophysics<br> 60 Garden St Cambridge, MA 02138</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: sarah.jeffreson@cfa.harvard.edu</p>
+      <p>Aaron Angress<br>
+        Northeastern University<br>Boston, MA</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: angress.a@northeastern.edu</p>
     </div>
 
-    <div class="w3-content w3-justify w3-text-grey" id="contact">
-    <p><a href="https://www.youtube.com/channel/UCMeMQa3opDsj1kn9NS9NrnA" target="_blank"><i class="fa fa-youtube fa-fw w3-xxlarge w3-margin-right w3-hover-opacity"></i></a> YouTube channel!</p>
-    </div>
   </div>
   <!-- End Contact Section -->
 
